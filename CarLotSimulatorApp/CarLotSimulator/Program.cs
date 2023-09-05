@@ -17,6 +17,22 @@ namespace CarLotSimulator
             //Now that the Car class is created we can instanciate 3 new cars
             //Set the properties for each of the cars
             //Call each of the methods for each car
+            Car car1 = new Car(2019, "Honda", "Accord", "hum", "beep", true);
+            Car car2 = new Car();
+            car2.Year = 1974;
+            car2.Make = "Chevrolet";
+            car2.Model = "C10";
+            car2.EngineNoise = "sputtering";
+            car2.HonkNoise = "Murrr";
+            car2.IsDriveable = false;
+            Car car3 = new Car()
+            {
+                Year = 2010,
+                Make = "Audi",
+                Model = "R8",
+                EngineNoise = "Brroom",
+                HonkNoise   = "mip"
+            };
 
             //*************BONUS*************//
 
