@@ -8,10 +8,10 @@ namespace CarLotSimulator
 {
     class Car
     {
-       public Car() 
-        {            
+        public Car()
+        {
         }
-        public Car(int year, string make, string model, string engineNoise, string honkNoise, bool isDriveable) 
+        public Car(int year, string make, string model, string engineNoise, string honkNoise, bool isDriveable)
         {
             Year = year;
             Make = make;
@@ -26,18 +26,17 @@ namespace CarLotSimulator
         public string EngineNoise { get; set; }
         public string HonkNoise { get; set; }
         public bool IsDriveable { get; set; }
-        
-            public void MakeEngineNoise(string engineNoise)
+
+        public void MakeEngineNoise(string engineNoise)
         {
             Console.WriteLine($"{engineNoise}");
         }
-            public void MakeHonkNoise(string honkNoise)
+        public void MakeHonkNoise(string honkNoise)
         {
             Console.WriteLine($"{honkNoise}");
         }
-        public static int numberOfCars;
-        } 
     }
+}
 
 
 //Create a seperate class file called Car
